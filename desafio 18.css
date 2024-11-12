@@ -21,7 +21,7 @@ input[type="number"] {
 }
 
 button {
-    background-color: #4CAF50;
+    background-color: #e605d3;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -33,9 +33,9 @@ button {
 }
 
 button:hover {
-    background-color: #3599f1;
+    background-color: #e605d3;
 }
-
+             
 .header {
     padding: 20px;
 }
@@ -44,20 +44,19 @@ button:hover {
     display: inline;
     margin-left: 480px;
 }
-
+                
 .span-1,
 .span-2 {
     font-weight: bold;
     font-size: x-large;
-    font-family: Segoe UI;
 }
 
-.span-1 {
-    color: #0e8503;
+.span-1{
+    color: #e605d3
 }
 
-.span-2 {
-    color: #18e605;
+.span-2{
+    color: #510a69;
 }
 
 .links a {
@@ -66,11 +65,10 @@ button:hover {
     font-weight: bold;
     color: black;
     padding: 3px;
-    font-family: Segoe UI;
 }
 
-.links a:hover {
-    color: #05e623;
-    border-top: 2px solid #05e623;
-    border-bottom: 2px solid #05e623;
+.links a:hover{
+    color: #e605d3;
+    border-top: 2px solid #e605d3;
+    border-bottom: 2px solid #e605d3;
 }
