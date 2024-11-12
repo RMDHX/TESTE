@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <title>Aula Back-Ende 3º Ano - Polo Arapongas</title>
 
@@ -12,19 +11,15 @@
 
     <link rel="stylesheet" href="style5.css">
 </head>
-
 <body>
+
     <header class="bg-light header">
         <section>
             <span class="span-1">Aprenda</span>
             <span class="span-2">Na Prática</span>
-
+            
             <section class="links">
-                <a href="index.html">Início</a>
-                <a href="Polo.html">Escola Polo</a>
-                <a href="Professor.html">Professor</a>
-                <a href="Arquivos.html">Arquivos</a>
-                <a href="Exemplos.html">Jogos</a>
+                <a href="index.html">Voltar</a>
             </section>
         </section>
     </header>
@@ -35,14 +30,15 @@
         function calcular() {
             let n1 = Number(window.prompt('Digite um número: '))
             let res = document.querySelector('section#resultado')
-            res.innerHTML = `<p>O antecessor do número ${n1} é ${n1 - 1} e o sucessor é ${n1 + 1}!</p>`
+            res.innerHTML = `<p>O antecessor do número ${n1} é ${n1-1} e o sucessor é ${n1+1}!</p>`
         }
     </script>
 
     <section id="resultado">
         <p>O numeros são..</p>
     </section>
-
+    
+    
+    
 </body>
-
 </html>

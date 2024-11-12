@@ -1,5 +1,5 @@
-body{
-    background-color: rgb(245, 244, 231);
+body {
+    background: linear-gradient(120deg, #69fff3 25%, #3fff69 100%);
 }
 
 .header{
@@ -24,23 +24,23 @@ body{
     padding: 3px;
 }
 
-.links a:hover{
-    color: #e605d3;
-    border-top: 2px solid #e605d3;
-    border-bottom: 2px solid #e605d3;
+.links a:hover {
+    color: #05e623;
+    border-top: 2px solid #05e623;
+    border-bottom: 2px solid #05e623;
 }
 
-.link-a-1{
-    background-color: #bb09ac;
-    border: #e605d3 solid 2px;
+.link-a-1 {
+    background-color: #09bb18;
+    border: #05e649 solid 2px;
     color: white;
     font-weight: bold;
     padding: 10px;
 }
 
-.link-a-2{
+.link-a-2 {
     background-color: transparent;
-    border: #e605d3 solid 2px;
+    border: #05e649 solid 2px;
     font-weight: bold;
     padding: 5px;
 }
@@ -51,12 +51,12 @@ body{
     font-size: x-large;
 }
 
-.span-1{
-    color:#85037a ;
+.span-1 {
+    color: #0e8503;
 }
 
-.span-2{
-    color: #e605d3;
+.span-2 {
+    color: #18e605;
 }
 
 .secao-1{
@@ -88,9 +88,9 @@ body{
     font-weight: bold;
 }
 
-.secao-1 h2{
+.secao-1 h2 {
     font-weight: lighter;
-    color: #e605d3;
+    color: #05e623;
 }
 
 img{
